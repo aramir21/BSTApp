@@ -1,0 +1,12 @@
+name: bstapp
+title: BSTApp
+username: aramir21
+account: aramir21
+server: bookdown.org
+hostUrl: https://bookdown.org/__api__
+appId: 15682
+bundleId: 109444
+url: https://bookdown.org/aramir21/bstapp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
