@@ -4,12 +4,12 @@ FROM rocker/shiny-verse:latest
 RUN apt-get update && apt-get install -y \
   sudo \
   pandoc \
-  pandoc-citeproc \
   libcurl4-gnutls-dev \
   libcairo2-dev \
   libxt-dev \
   libssl-dev \
-  libssh2-1-dev
+  libssh2-1-dev \
+  && rm -rf /var/lib/apt/lists/*
 
 # copy everything into Shiny Server directory
 COPY /. /srv/shiny-server/
