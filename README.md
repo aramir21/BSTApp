@@ -18,8 +18,9 @@ We welcome all comments and feedback.
 ## Usage from R
 
 First, install the shiny package. Then run the following command in R (or any R script editor):
-
+```r
 shiny::runGitHub('besmarter/BSTApp', launch.browser = TRUE)
+```
 
 
 After launching, follow the steps described in my book, which is linked in the Help tab of the app (top panel, left tab).
@@ -43,12 +44,11 @@ As with Posit Cloud, occasional memory limits on the free tier may affect perfor
 ## Usage from a local Docker Image (Recommended)
 
 Install Docker and then run the following commands in your terminal:
-
+```bash
 docker pull aramir21/besmartergui:latest
-
 docker run --rm -p 3838:3838 aramir21/besmartergui
-
+```
 
 Once running, access the app in your browser at:
 
-http://127.0.0.1:3838 or http://localhost:3838/
+👉 http://127.0.0.1:3838 or 👉 http://localhost:3838/
