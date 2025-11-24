@@ -45,6 +45,7 @@ As with Posit Cloud, occasional memory limits on the free tier may affect perfor
 Install Docker and then run the following commands in your terminal:
 
 docker pull aramir21/besmartergui:latest
+
 docker run --rm -p 3838:3838 aramir21/besmartergui
 
 
