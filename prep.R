@@ -2,7 +2,7 @@ dep <- c("rsconnect" ,"shiny","mlogit" ,"MASS" ,"AER" ,
          "mcmc","bayesm",
          "abind","bayesboot","bibtex" ,
          "BMA","car","carData","cellranger" ,"clipr",
-         "coda","DT","Formula",
+         "coda","DT","Formula", "ggplot2", "reshape2",
          "Matrix" ,"matrixcalc","RcppEigen",
          "Rdpack","rhandsontable" ,"statmod", "truncnorm"  ,
          "stringr","dma",'dlm',"bvartools","stochvol","bayesforecast","ggpubr","latex2exp")
