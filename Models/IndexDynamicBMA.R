@@ -3,8 +3,8 @@ rm(list = ls())
 library(dma)
 
 ##### Dynamic BMA ########
-dataDBMA <- read.csv("https://raw.githubusercontent.com/besmarter/BSTApp/refs/heads/master/DataSim/55SimDynamicBMA.csv")
-modelDBMA <- read.csv("https://raw.githubusercontent.com/besmarter/BSTApp/refs/heads/master/DataSim/55SimModels.csv")
+dataDBMA <- read.csv("https://raw.githubusercontent.com/BEsmarter-consultancy/BSTApp/refs/heads/master/DataSim/514SimDynamicBMA.csv")
+modelDBMA <- read.csv("https://raw.githubusercontent.com/BEsmarter-consultancy/BSTApp/refs/heads/master/DataSim/514SimModels.csv")
 source("https://raw.githubusercontent.com/besmarter/BSTApp/refs/heads/master/Models/DBMA.R")
 ResDBMA <- DBMA(y = dataDBMA[,1], X = dataDBMA[,-1], models = modelDBMA, lambda = 0.99, delta = 0.99)
 # Input: Dynamic BMA

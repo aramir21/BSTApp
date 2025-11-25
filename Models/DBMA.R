@@ -15,6 +15,8 @@ DBMA <- function(y, X, models, lambda = 0.99, delta = 0.99){
   BetasBMAsd <- dma.test[["Vtheta.ma"]]^0.5
   ForecastsMean <- dma.test[["yhat.ma"]]
   Plot <- function(PMP){
+    # outfile <- tempfile(fileext = ".png")
+    # png(outfile, width = 900, height = 600)
     # Generate default labels if column names are not provided
     if (is.null(colnames(PMP))) {
       colnames(PMP) <- paste("Model", seq_len(ncol(PMP)))
@@ -30,8 +32,10 @@ DBMA <- function(y, X, models, lambda = 0.99, delta = 0.99){
         lty = 1:ncol(PMP)                 # Line types for each series
       )
     }
+    # dev.off()
     plot <- recordPlot()
     return(plot)
+    # return(outfile)
   }
   PlotPMP <- Plot(PMP)
   return(list(PMP = PMP, BetasBMAmean = BetasBMAmean, BetasBMAsd = BetasBMAsd,
