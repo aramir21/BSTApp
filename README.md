@@ -1,6 +1,6 @@
 # BEsmarterGUI
 
-## YouTube Channel
+## YouTube channel: video tutorials
 
 [https://www.youtube.com/@besmarterteam1089](https://www.youtube.com/@besmarterteam)
 
