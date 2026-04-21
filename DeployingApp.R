@@ -1,3 +1,4 @@
 rsconnect::setAccountInfo(name='andres-ramirez-hassan',
-                          token='11B8B083E51D0EEE088931616E582ED5',
-                          secret='Q2yILB8KXu0I0dQEN39KP/YokXuYnZsT3D92EqV/')
+                          token='53E97DC4BD4A282CB4FD00C97A9E13D6',
+                          secret='kmBdRvhJtZL5qw9fE6LkMHlXuLcomAgr6rcEuIHg')
+rsconnect::deployApp("C:/ANDRES/BookGUI/BSTApp")
